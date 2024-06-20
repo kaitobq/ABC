@@ -11,7 +11,7 @@ export default function E({ setState }: Props) {
 
   return (
     <div className="m-3 p-5 bg-green-300">
-      <p>This is a E component</p>
+      <p>This is E component</p>
       <p className="font-bold text-center">Press the Button!!</p>
       <button
         onClick={() => setState(true)}

@@ -12,7 +12,7 @@ export default function D({ state }: Props) {
   return (
     <div className="bg-blue-200 p-5">
       <p>{state ? "Hello" : "Bye"}</p>
-      <p>This is a D component</p>
+      <p>This is D component</p>
     </div>
   );
 }

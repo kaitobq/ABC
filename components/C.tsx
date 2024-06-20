@@ -11,7 +11,7 @@ export default function C({ stateRef }: Props) {
 
   return (
     <div className="m-3 p-5 bg-green-300">
-      <p>This is a C component</p>
+      <p>This is C component</p>
       <p className="font-bold text-center">Press the Button!!</p>
       <button
         onClick={() => stateRef.current(true)}
