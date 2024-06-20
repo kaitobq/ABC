@@ -33,6 +33,16 @@ export default function Home() {
           次のページ
         </Link>
       </div>
+      <div className="flex justify-center">
+        <Link
+          href="https://github.com/kaitobq/ABC"
+          rel="noopener noreferrer"
+          target="_blank"
+          className="text-blue-800 underline"
+        >
+          ソースコード→
+        </Link>
+      </div>
     </div>
   );
 }
