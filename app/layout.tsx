@@ -17,8 +17,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="flex justify-center p-3 font-bold">
+        <div className="flex flex-col items-center p-3 font-bold">
           <h2>useState, useRefの活用法について学べるサイトです。</h2>
+          <h4>
+            React Developer
+            Toolsでレンダリングを可視化し、コンソールを開きながらボタンを押すとわかりやすいです!
+          </h4>
         </div>
         {children}
       </body>

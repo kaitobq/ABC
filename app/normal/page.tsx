@@ -3,10 +3,13 @@
 import D from "@/components/D";
 import E from "@/components/E";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function NormalPage() {
   const [state, setState] = useState(false);
+  useEffect(() => {
+    console.log("page rendered!");
+  });
   return (
     <div className="m-10 p-5 bg-red-200">
       <div className=" text-center">
