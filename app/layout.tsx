@@ -16,7 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="flex justify-center p-3 font-bold">
+          <h2>useState, useRefの活用法について学べるサイトです。</h2>
+        </div>
+        {children}
+      </body>
     </html>
   );
 }
